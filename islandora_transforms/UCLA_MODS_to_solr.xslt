@@ -4,7 +4,7 @@
   xmlns:mods="http://www.loc.gov/mods/v3"  xmlns:java="http://xml.apache.org/xalan/java" exclude-result-prefixes="mods">
   <xsl:variable name="modsPrefix">mods_</xsl:variable>
   <xsl:variable name="modsSuffix">_ms</xsl:variable>
-  <xsl:include href="/usr/local/fedora/tomcat/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/index/FgsIndex/islandora_transforms/slurp_all_MODS_to_solr.xslt"/>
+  <xsl:include href="/usr/share/tomcat6/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/index/FgsIndex/islandora_transforms/slurp_all_MODS_to_solr.xslt"/>
   <!--
     SECTION 1:
 
